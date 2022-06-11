@@ -79,6 +79,8 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 /*features*/
 .hidden-text{
@@ -152,6 +154,9 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--accent-color);
 }
+.filters-list {
+    list-style: none;
+}
 /*project-portfolio*/
 .project-list {
     list-style: none;
@@ -192,6 +197,15 @@ footer {
 .footer-link {
     text-decoration: none;
     color: var(--footer-text);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.footer-link-white {
+    text-decoration: none;
+    color: var(--accent-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
